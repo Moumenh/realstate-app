@@ -1,0 +1,62 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "3.5.2",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "^5.11.9",
+    "@react-navigation/material-top-tabs": "^5.3.15",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "expo": "^42.0.0",
+    "expo-app-loading": "^1.0.3",
+    "expo-constants": "~11.0.1",
+    "expo-document-picker": "~9.2.4",
+    "expo-file-system": "~11.1.3",
+    "expo-font": "~9.2.1",
+    "expo-media-library": "~12.1.2",
+    "expo-permissions": "~12.1.1",
+    "expo-status-bar": "~1.0.4",
+    "firebase": "8.2.3",
+    "native-base": "^2.15.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-credit-card-input": "^0.4.1",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-modal-datetime-picker": "^9.2.1",
+    "react-native-pager-view": "^5.2.1",
+    "react-native-phone-input": "^1.0.9",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-tab-view": "^3.0.1",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.3",
+    "redux": "^4.0.5",
+    "stripe-client": "^1.1.5",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0",
+    "@types/react-native-phone-input": "^0.2.1"
+  },
+  "private": true,
+  "name": "realestate",
+  "version": "0.1.0",
+  "android": {
+    "package": "com.dev.real_estate",
+    "versionCode": "0.1.0"
+  },
+  "ios": {
+    "bundleIdentifier": "com.call.realestate",
+    "buildNumber": "0.1.0"
+  }
+}
